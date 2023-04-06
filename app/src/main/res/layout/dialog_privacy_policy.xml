@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_privacy_policy_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_70_1_dialog_bg">
+
+    <TextView
+        android:id="@+id/dialogPrivacyPolicyTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_12sdp"
+        android:background="@drawable/ic_70_1_dialog_title_privacy_policy_bg"
+        android:text="@string/settings_privacy_policy"
+        style="@style/SubtitleTextView"
+        android:textColor="@color/main_bg"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialogPrivacyPolicyCl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_320sdp"
+        app:layout_constraintTop_toBottomOf="@+id/dialogPrivacyPolicyTitle"
+        app:layout_constraintBottom_toTopOf="@+id/settingsAlertDialogPrivacyPolicyOk"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:paddingTop="@dimen/_8sdp">
+
+        <ScrollView
+            android:id="@+id/dialogPrivacyPolicyScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/dialogPrivacyPolicyDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:text="@string/settings_privacy_policy_description"
+                style="@style/BodySmallTextView" />
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsAlertDialogPrivacyPolicyOk"
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/settings_alert_dialog_ok"
+        style="@style/Button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

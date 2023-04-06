@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_24sdp"
+    android:scrollbars="none"
+    android:background="@color/main_bg"
+    tools:context=".Activities.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_title"
+            style="@style/TitleTextView"/>
+
+        <FrameLayout
+            android:id="@+id/layout_sign_up_avatar_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32sdp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/sign_up_avatar_user"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/sample_profile_circle"
+                app:riv_oval="true"/>
+
+            <TextView
+                android:id="@+id/add_avatar"
+                android:layout_width="@dimen/_70ssp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:lines="2"
+                android:text="@string/sign_up_add_avatar"
+                style="@style/HintTextView"/>
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/sign_up_firstname"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/hint_firstname"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingHorizontal="@dimen/_16sdp"
+            style="@style/EditText"/>
+
+        <EditText
+            android:id="@+id/sign_up_surname"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/hint_surname"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingHorizontal="@dimen/_16sdp"
+            style="@style/EditText"/>
+
+        <EditText
+            android:id="@+id/sign_up_email"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="@dimen/_16sdp"
+            style="@style/EditText"/>
+
+        <EditText
+            android:id="@+id/sign_up_password"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:hint="@string/hint_password"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingHorizontal="@dimen/_16sdp"
+            style="@style/EditText"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:animateLayoutChanges="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sign_up_button"
+                android:layout_width="match_parent"
+                android:text="@string/sign_up_button"
+                style="@style/Button"/>
+            
+            <ProgressBar
+                android:id="@+id/sign_up_progress_bar"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/primary40"
+                android:visibility="invisible"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/already_registered"
+            style="@style/HintTextView"/>
+
+        <TextView
+            android:id="@+id/sign_up_to_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sign_in_button"
+            style="@style/LinkTextView"/>
+
+    </LinearLayout>
+
+</ScrollView>

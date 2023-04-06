@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_8sdp">
+    
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/supportProfileAvatar"
+        android:layout_width="@dimen/_36sdp"
+        android:layout_height="@dimen/_36sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/sample_profile_circle"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"/>
+
+    <View
+        android:id="@+id/supportViewSupporter"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_1sdp"
+        app:layout_constraintTop_toTopOf="@+id/supportProfileAvatar"
+        app:layout_constraintBottom_toBottomOf="@+id/supportProfileAvatar"
+        app:layout_constraintStart_toEndOf="@+id/supportProfileAvatar"/>
+
+    <TextView
+        android:id="@+id/supportFirstname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/supportViewSupporter"
+        app:layout_constraintStart_toEndOf="@id/supportProfileAvatar"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        style="@style/BodySmallTextView" />
+
+    <TextView
+        android:id="@+id/supportSurname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/supportViewSupporter"
+        app:layout_constraintStart_toEndOf="@id/supportFirstname"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/_6sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        style="@style/BodySmallTextView" />
+
+    <TextView
+        android:id="@+id/supportRecentMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/supportViewSupporter"
+        app:layout_constraintStart_toEndOf="@id/supportProfileAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        style="@style/HintTextView" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

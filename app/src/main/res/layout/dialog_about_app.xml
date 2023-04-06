@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogAboutAppContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ic_70_1_dialog_bg">
+
+    <TextView
+        android:id="@+id/dialogAboutAppTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_12sdp"
+        android:background="@drawable/ic_70_1_dialog_title_about_app_bg"
+        android:text="@string/settings_about_app"
+        style="@style/SubtitleTextView"
+        android:textColor="@color/main_bg"/>
+
+    <ScrollView
+        android:id="@+id/dialogAboutAppScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dialogAboutAppDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:text="@string/settings_about_app_description"
+                style="@style/BodyTextView"/>
+
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsAlertDialogAboutAppOk"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_16sdp"
+        android:text="@string/settings_alert_dialog_ok"
+        style="@style/Button" />
+
+</LinearLayout>

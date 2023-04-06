@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202300569427",
+    "firebase_url": "https://the-world-history-1ea11-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "the-world-history-1ea11",
+    "storage_bucket": "the-world-history-1ea11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202300569427:android:92fa178bbe6dee9680d3a6",
+        "android_client_info": {
+          "package_name": "com.example.theworldhistory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202300569427-um4agaebc6nplnc4jbq3nhoop31sfn9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theworldhistory",
+            "certificate_hash": "e42413c53e519251319c3e5dfe084979e050ded4"
+          }
+        },
+        {
+          "client_id": "202300569427-q3nnqsc6o7ff0nbl1j5o0t6ib1cs0g8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNC85jWMkK_K_ZU5sO3IxXvRjGJSMRiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202300569427-q3nnqsc6o7ff0nbl1j5o0t6ib1cs0g8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

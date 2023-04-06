@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App name -->
+    <string name="app_name">Historia mundial</string>
+
+    <!-- Sign In Activity -->
+    <string name="sign_in_title">Welcome back!</string>
+    <string name="sign_in_description">¡Bienvenido de nuevo!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Clave</string>
+    <string name="sign_in_button">Registrarse</string>
+    <string name="sign_in_separate">Registrarse</string>
+    <string name="sign_in_vk">VKontakte</string>
+    <string name="sign_in_facebook">Facebook</string>
+    <string name="sign_in_google">Google</string>
+    <string name="not_registered">¿No registrado?</string>
+
+    <!-- Sign Up Activity -->
+    <string name="sign_up_title">Registro</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="sign_up_add_avatar">Inscribirse</string>
+    <string name="hint_firstname">Primer nombre</string>
+    <string name="hint_surname">Apellido</string>
+    <string name="already_registered">¿Ya registrado?</string>
+
+    <!-- Main Activity. Bottom navigation area -->
+    <string name="world_history_description">Historia mundial</string>
+    <string name="stories_description">Historias</string>
+    <string name="leaders_description">Líderes</string>
+    <string name="achievements_description">Logros</string>
+    <string name="profile_description">Perfil</string>
+
+    <!-- Main Activity. Top status area -->
+    <string name="strike_number">0</string>
+    <string name="strike_description">Modo continuo</string>
+    <string name="life_number">5</string>
+    <string name="life_description">Vida</string>
+    <string name="crystal_number">100</string>
+    <string name="crystal_description">Cristal</string>
+
+    <!-- Main Activity. World History Fragment -->
+    <string name="lock_description">Cerrar</string>
+    <string name="lock_title_first_stroke">Sección completa</string>
+
+    <string name="primary_society_title">Sociedad primaria</string>
+    <string name="primary_society_description">Sociedad primaria</string>
+    <string name="primary_society_progress_number">21%</string>
+
+    <string name="ancient_world_title">Mundo antiguo</string>
+    <string name="ancient_world_description">Mundo antiguo</string>
+    <string name="ancient_world_progress_number">0%</string>
+    <string name="ancient_world_lock_title">«Sociedad primaria»</string>
+
+    <string name="middle_ages_title">Edades medias</string>
+    <string name="middle_ages_description">Edades medias</string>
+    <string name="middle_ages_progress_number">0%</string>
+    <string name="middle_ages_lock_title">«Mundo antiguo»</string>
+
+    <string name="new_time_title">Nuevo tiempo</string>
+    <string name="new_time_description">Nuevo tiempo</string>
+    <string name="new_time_progress_number">0%</string>
+    <string name="new_time_lock_title">«Edades medias»</string>
+
+    <string name="modern_time_title">Tiempos modernos</string>
+    <string name="modern_time_description">Tiempos modernos</string>
+    <string name="modern_time_progress_number">0%</string>
+    <string name="modern_time_lock_title">«Nuevo tiempo»</string>
+
+
+    <!-- Main Activity. Stories Fragment -->
+    <string name="section_stories_under_development">La sección «Historias» está en desarrollo</string>
+
+
+    <!-- Main Activity. Leaders Fragment -->
+    <string name="league_title_cave">Cueva</string>
+    <string name="league_title_hut">Cabaña</string>
+    <string name="league_title_village">Aldea</string>
+    <string name="league_title_settlement">Asentamiento</string>
+    <string name="league_title_city">Ciudad</string>
+    <string name="league_title_metropolis">Metrópoli</string>
+    <string name="league_title_cosmopolis">Сiudad espacial</string>
+
+    <string name="league_deadline_7_day">7 días</string>
+    <string name="league_deadline_6_day">6 días</string>
+    <string name="league_deadline_5_day">5 días</string>
+    <string name="league_deadline_4_day">4 días</string>
+    <string name="league_deadline_3_day">3 días</string>
+    <string name="league_deadline_2_day">2 días</string>
+    <string name="league_deadline_1_day">1 día</string>
+
+
+    <!-- Main Activity. Achievements Fragment -->
+    <string name="achievements_goals">METAS</string>
+    <string name="achievements_awards">PREMIOS</string>
+    <string name="achievements_collection">COLECCIONES</string>
+
+    <string name="goal_day">Gol del día</string>
+    <string name="goal_day_number">12 / 20 puntos</string>
+    <string name="goal_day_deadline">Otras 14 horas</string>
+    <string name="ic_30_0_chest">Premio del día</string>
+    <string name="ic_30_0_goal_day_status">Premio del día recibido</string>
+
+    <string name="goal_week">Gol de la semana</string>
+    <string name="goal_week_number">68 / 150 puntos</string>
+    <string name="goal_week_deadline">Otros 14 días</string>
+    <string name="ic_30_0_dishes_2" tools:ignore="TypographyFractions">Premio de la semana 1/3</string>
+    <string name="ic_30_0_stone_4">Premio de la semana 2/3</string>
+    <string name="ic_30_0_totem">Premio de la semana 3/3</string>
+    <string name="ic_30_0_goal_week_1_3_status" tools:ignore="TypographyFractions">Premio de la semana 1/3 recibido</string>
+    <string name="ic_30_0_goal_week_2_3_status">Premio de la semana 2/3 recibido</string>
+    <string name="ic_30_0_goal_week_3_3_status">Premio de la semana 3/3 recibido</string>
+
+    <string name="awards_status_title">Reconocimientos recibidos</string>
+    <string name="awards_number">17 / 80 premios</string>
+    <string name="award_1_title">Primeros pasos</string>
+    <string name="award_2_title">Coleccionista novato</string>
+    <string name="award_1_description">Completa la tarea número 1 en la sección "Sociedad primitiva"</string>
+    <string name="award_2_description">Consigue tu primera colección</string>
+    <string name="award_1_image">Pasos</string>
+    <string name="award_2_image">Coleccionista</string>
+    <string name="award_1_status_number">0 / 1</string>
+
+    <string name="collections_status_title">Colecciones recopiladas</string>
+    <string name="collections_number">2 / 40 colecciones</string>
+    <string name="collection_title">Monumentos del Antiguo Egipto</string>
+    <string name="collection_image">Recopilación</string>
+    <string name="collection_status_number">2 / 6</string>
+
+
+    <!-- Main Activity. Profile Fragment -->
+    <string name="profile_title">PERFIL</string>
+    <string name="profile_avatar">imagen de usuario</string>
+    <string name="profile_settings">Ajustes</string>
+    <string name="profile_firstname">Primer nombre</string>
+    <string name="profile_surname">Apellido</string>
+    <string name="profile_level_title">Nivel</string>
+    <string name="profile_level_number">0</string>
+    <string name="profile_lifes_title">Vidas</string>
+    <string name="profile_lifes_number">5</string>
+    <string name="profile_strike_title">Modo continuo</string>
+    <string name="profile_strike_number">12</string>
+    <string name="profile_experience_title">Experiencia</string>
+    <string name="profile_experience_number">84</string>
+    <string name="profile_crystals_title">Cristales</string>
+    <string name="profile_crystals_number">1825</string>
+    <string name="profile_league_title">Liga actual</string>
+    <string name="profile_league_active">Cueva</string>
+    <string name="profile_league_place_number">6</string>
+    <string name="profile_league_place_title">lugar</string>
+    <string name="profile_awards_title">Premios</string>
+    <string name="profile_awards_number">17 / 80</string>
+    <string name="profile_collections_title">Colecciones</string>
+    <string name="profile_collections_number">2 / 40</string>
+    <string name="title_activity_settings">AjustesActividad</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">AJUSTES</string>
+    <string name="settings_approve">Aprobar</string>
+    <string name="settings_cancel">Cancelar</string>
+    <string name="settings_your_profile_title">Tu perfil</string>
+    <string name="settings_general_title">Principal</string>
+    <string name="settings_other_title">Otro</string>
+    <string name="settings_edit">Editar</string>
+    <string name="settings_sign_out">Desconectar</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_dark_mode">Modo oscuro</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_ru">Rusia</string>
+    <string name="settings_language_es">España</string>
+    <string name="settings_language_uk">Reino Unido</string>
+    <string name="settings_arrow_right">Flecha derecha</string>
+    <string name="settings_share">Cuota</string>
+    <string name="settings_rate">Velocidad</string>
+    <string name="settings_support">Apoyo</string>
+    <string name="settings_privacy_policy">Política de privacidad</string>
+    <string name="settings_about_app">Acerca de la aplicación</string>
+    <string name="settings_privacy_policy_description"> Esta Política de privacidad de la aplicación Gala-Magic (en adelante, la Política) se aplica a toda la información que Korepin (IP) pueda recibir sobre el usuario mientras usa esta aplicación.
+
+        Usar la aplicación significa que el usuario está de acuerdo con esta Política y las condiciones para procesar su información personal especificadas en ella; en caso de disconformidad con estas condiciones, el usuario deberá abstenerse de utilizar la aplicación.
+
+        <b>1. Información personal de los usuarios recibida y procesada por la aplicación "Gala-Magic"</b>
+        1.1. En el proceso de trabajo, la aplicación Gala-Magic recopila información estadística necesaria para el funcionamiento de la aplicación. A los efectos de esta Política, "información estadística" significa:
+        1.1.1. El número y tipo únicos del dispositivo, el tipo de sistema operativo, el tipo de contenido al que accede el usuario y (con el consentimiento del usuario) las coordenadas geográficas del dispositivo.
+        1.2. En el proceso de trabajo, la aplicación "Gala-Magic" no recopila datos personales u otra información confidencial de los usuarios. A los efectos de esta Política, "información personal del usuario" significa:
+        1.2.1. Información personal que el usuario proporciona sobre sí mismo al registrarse (crear una cuenta) o en el proceso de uso de la aplicación, incluidos los datos personales del usuario. La información es proporcionada por el usuario a su discreción.
+        1.2.2. Datos que se transmiten automáticamente a Korepin (IP) en el proceso de su uso utilizando la aplicación instalada en el dispositivo, incluida la información de las cookies, información sobre el dispositivo del usuario.
+
+        <b>2. Finalidades de la recogida y tratamiento de la información estadística de los usuarios</b>
+    2.1. La aplicación recopila y almacena solo la información estadística que es necesaria para mejorar el funcionamiento de la aplicación, la conveniencia de su uso, el desarrollo de nuevos servicios y servicios.
+
+    <b>3. Condiciones para el tratamiento de la información estadística de los usuarios y su cesión a terceros </b>
+    3.1. Esta Política se aplica únicamente a la aplicación "Gala-Magic" "Korepin" (IP) "Korepin" (IP) no controla ni se hace responsable de la información de terceros a la que el usuario pueda acceder a través de los enlaces disponibles en la aplicación . En dichos sitios, se puede recopilar o solicitar al usuario otra información personal, y también se pueden realizar otras acciones.
+    3.2. Al procesar datos personales de los usuarios de la aplicación Gala-Magic, Korepin (IP) se guía por la Ley Federal de la Federación Rusa "Sobre datos personales".
+
+    <b>4. Cambio de información personal por parte del usuario</b>
+    4.1. El usuario también puede cambiar o eliminar la información estadística proporcionada por él dentro de una determinada cuenta solicitando un cambio o eliminación a través de los especialistas de Korepin (IP) por correo electrónico info@galamart.ru o personalmente en la dirección: 620026, Rusia, Ekaterimburgo, BC "Onegin", PO Box No. 55
+
+    <b>5. Cambio de la Política de privacidad.</b>
+    5.1. Korepin (IP) tiene derecho a realizar cambios en esta Política de privacidad. Al realizar cambios en la versión actual, se indica la fecha de la última actualización. La nueva versión de la Política entra en vigor desde el momento de su firma, salvo disposición en contrario de la nueva versión de la Política.
+    5.2. Esta Política y la relación entre el usuario y "Korepin" (IP), que surge en relación con la aplicación de la Política de Privacidad, está sujeta a la ley de la Federación Rusa.
+
+<b>6. Comentarios.</b>
+    Preguntas y sugerencias Todas las sugerencias o preguntas relacionadas con esta Política deben comunicarse al Servicio de atención al usuario (IP) de Korepin info@galamart.ru o al: 620026, Rusia, Ekaterimburgo, Onegin Business Center, a/ i #55</string>
+    <string name="settings_alert_dialog_ok">Bueno</string>
+    <string name="settings_about_app_description">Esta aplicación fue desarrollada como parte de las pruebas de Android Studio.
+          El tema de la historia es muy interesante para el desarrollador y, por lo tanto, el negocio se combina con el placer.
+          ¡Espero que disfrutes repasando todas las historias hasta el final!</string>
+
+    <!-- Support Activity -->
+    <string name="support_select_user">Seleccionar usuario</string>
+    <string name="support_back">Atrás</string>
+    <string name="support_add_new_user">Agregar nuevo usuario</string>
+
+    <!-- Chat Activity -->
+    <string name="support_input_message_hint">Mensaje de entrada</string>
+    <string name="support_send_message_button">Enviar mensaje</string>
+    <string name="support_info">Información</string>
+    <string name="support_availability">En línea</string>
+
+    <!-- Old strings -->
+    <string name="sign_in_main_image">Imagen principal</string>
+    <string name="sign_in_odnoklassniki">Odnoklassniki</string>
+    <string name="back_to_sign_in">Atrás</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensajes</string>
+    <string name="sync_header">sincronizar</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Su firma</string>
+    <string name="reply_title">Acción de respuesta predeterminada</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sincroniza el correo electrónico periódicamente</string>
+    <string name="attachment_title">Descargar archivos adjuntos entrantes</string>
+    <string name="attachment_summary_on">Descargar automáticamente archivos adjuntos para correos electrónicos entrantes</string>
+    <string name="attachment_summary_off">Solo descargue archivos adjuntos cuando se solicite manualmente</string>
+
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General colors -->
+    <color name="primary10">#001847</color>
+    <color name="primary40">#0056d0</color>
+    <color name="primary70">#88A9FF</color>
+    <color name="primary80">#B1C5FF</color>
+    <color name="primary90">#DAE2FF</color>
+    <color name="primary95">#EEF0FF</color>
+    <color name="primary_text">#1B1B1F</color>
+    <color name="secondary_text">#757580</color>
+    <color name="inactive_text">#B8B8B8</color>
+    <color name="main_bg">#FEFBFF</color>
+    <color name="input_bg">#F0F0FA</color>
+    <color name="surface">#ECECEC</color>
+
+    <!-- Sign In Activity colors -->
+    <color name="sign_in_vk_bg">#0077FF</color>
+    <color name="sign_in_vk_label">#FEFBFF</color>
+    <color name="sign_in_google_blue">#4285F4</color>
+    <color name="sign_in_google_green">#34A853</color>
+    <color name="sign_in_google_yellow">#FBBC05</color>
+    <color name="sign_in_google_red">#EA4335</color>
+
+    <!-- Main Activity colors -->
+    <color name="inactive_icon">#8F9099</color>
+
+
+
+
+
+
+
+
+
+    <!-- Other colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="received_message_bg">#090D16</color>
+
+
+
+
+
+
+<!-- Old colors -->
+    <color name="front_icon_bg">#D5F3FF</color>
+
+    <color name="text_main">#131313</color>
+    <color name="text_main_active">#5C5C5C</color>
+    <color name="text_main_inactive">#858585</color>
+
+    <color name="sign_in_main_bg">#FFFBD5</color>
+    <color name="sign_up_main_bg">#FFFFFF</color>
+    <color name="sign_up_bg">#DADADA</color>
+    <color name="sign_up_text_bg">#EFEFEF</color>
+
+    <color name="main_status_area_bg">#FDFDFD</color>
+    <color name="top_border">#E2E2E2</color>
+    <color name="sign_in_button_bg">#FFC71F</color>
+    <color name="sign_up_button_bg">#FF7F2B</color>
+
+    <color name="hint_color">#888888</color>
+    <color name="registration">#FF7F2B</color>
+
+    <color name="inactive">#B8B8B8</color>
+
+    <color name="strike_active">#FF8A00</color>
+    <color name="life">#F44336</color>
+    <color name="crystal">#68CA44</color>
+
+    <color name="lock_linear_layout_bg">#EDEDED</color>
+    <color name="lock_title">#B6B6B6</color>
+
+    <color name="league_deadline">#FFB700</color>
+
+    <color name="primary_society_title">#55532A</color>
+    <color name="primary_society_bg">#FFF69C</color>
+    <color name="primary_society_progress_bar">#B5AD08</color>
+    <color name="primary_society_progress_bar_bg">#DEDFB0</color>
+
+    <color name="ancient_world_title">#47552A</color>
+    <color name="ancient_world_bg">#DEFFD6</color>
+    <color name="ancient_world_progress_bar">#0BB508</color>
+    <color name="ancient_world_progress_bar_bg">#BBE2BB</color>
+
+    <color name="achievements_top_bar_active">#FFD600</color>
+    <color name="achievements_top_bar_text_inactive">#B8B8B8</color>
+    <color name="achievements_top_bar_line_inactive">#E2E2E2</color>
+    <color name="achievements_stroke_block">#E2E2E2</color>
+
+    <color name="achievements_status_bar_bg">#E8E8E8</color>
+    <color name="achievements_goal_day_status_bar_active">#FFC700</color>
+    <color name="achievements_goal_day_status_number">#AA8500</color>
+    <color name="achievements_goal_week_status_bar_active">#8BC34A</color>
+    <color name="achievements_goal_week_status_number">#53752B</color>
+    <color name="achievements_awards_status_bar_active">#51B6FF</color>
+    <color name="achievements_awards_status_number">#02548F</color>
+    <color name="achievements_collections_status_bar_active">#9554FF</color>
+    <color name="achievements_collections_status_number">#3D009F</color>
+
+    <color name="profile_experience_number">#EECC17</color>
+    <color name="profile_league_place">#F4B000</color>
+
+    <color name="settings_approve">#4CAF50</color>
+    <color name="settings_cancel">#F44336</color>
+    <color name="settings_edit">#5C5C5C</color>
+    <color name="settings_sign_out">#EF5350</color>
+    <color name="settings_sound">#F86F39</color>
+    <color name="settings_notifications">#FFCA28</color>
+    <color name="settings_dark_mode">#673AB7</color>
+    <color name="settings_language">#03A9F4</color>
+    <color name="settings_arrow_right">#787878</color>
+    <color name="settings_share">#009688</color>
+    <color name="settings_rate">#FF9800</color>
+    <color name="settings_support">#4CAF50</color>
+    <color name="settings_privacy_policy">#9A3798</color>
+    <color name="settings_about_app">#00BCD4</color>
+    <color name="settings_switch_on">#20AF26</color>
+    <color name="settings_switch_off">#EEEEEE</color>
+    <color name="settings_switch_bg">#000000</color>
+    <color name="settings_alert_dialog_ok">#3047CA</color>
+    <color name="settings_alert_dialog_cancel">#939393</color>
+
+    <color name="settings_support_primary">#1C2E46</color>
+    <color name="settings_support_primary_dark">#142232</color>
+    <color name="settings_support_primary_text">#212121</color>
+    <color name="settings_support_secondary_text">#757575</color>
+    <color name="settings_support_white">#FFFFFF</color>
+    <color name="settings_support_input_bg">#ECECEC</color>
+    <color name="settings_support_icon_bg">#20FFFFFF</color>
+    <color name="settings_support_error">#B00020</color>
+    <color name="settings_support_received_message_bg">#090D16</color>
+    <color name="settings_support_chat_text_availability_bg">#008000</color>
+
+</resources>
